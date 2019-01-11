@@ -88,7 +88,7 @@ public class RegisSystem : MonoBehaviour
                 char Encrypted = (char)(c * i);
                 Password += Encrypted.ToString();
             }
-            form = (Username + "\n" + Password);
+            form = (Username + Environment.NewLine + Password);
             System.IO.File.WriteAllText(@"" + Username + ".txt", form);
             username.GetComponent<InputField>().text = "";
             password.GetComponent<InputField>().text = "";
