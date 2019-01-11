@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Upgrade.unity
     guid: 474703d18359c47d1a1dff044e8341e4
   - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: ea7598752fe9f4901afbb9d721cc41f2
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
