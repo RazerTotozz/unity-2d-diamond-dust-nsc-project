@@ -346,6 +346,7 @@ GameObject:
   - component: {fileID: 57906430}
   - component: {fileID: 57906432}
   - component: {fileID: 57906431}
+  - component: {fileID: 57906433}
   m_Layer: 5
   m_Name: CharBG
   m_TagString: Untagged
@@ -409,6 +410,25 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57906429}
   m_CullTransparentMesh: 0
+--- !u!114 &57906433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57906429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d63da6ce68bcf471283f14ba3c10e1a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinnabarN: {fileID: 1967764938}
+  seleniteN: {fileID: 1183016852}
+  lapisN: {fileID: 1770457408}
+  jadeN: {fileID: 1552235590}
+  cinnabar: {fileID: 1786655125}
+  selenite: {fileID: 880436651}
+  lapis: {fileID: 212170256}
+  jade: {fileID: 1363612779}
 --- !u!1 &212170256
 GameObject:
   m_ObjectHideFlags: 0
