@@ -265,8 +265,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 127575187}
   m_TextComponent: {fileID: 1036345011}
   m_Placeholder: {fileID: 831881536}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -1674,8 +1674,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1294082668}
-        m_MethodName: gohomee
+      - m_Target: {fileID: 1279257477}
+        m_MethodName: LoginButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3014,8 +3014,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859367289}
   m_TextComponent: {fileID: 196343753}
   m_Placeholder: {fileID: 1934892974}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -3469,8 +3469,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2067830256}
-        m_MethodName: gohomee
+      - m_Target: {fileID: 787888501}
+        m_MethodName: RegisButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3479,7 +3479,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2067830254
