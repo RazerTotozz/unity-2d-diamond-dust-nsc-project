@@ -43,11 +43,11 @@ public class LoginScreen : MonoBehaviour
         if(Password !=""){
             if (System.IO.File.Exists(@"" + Username + ".txt")) {
                 int i = 1;
-                foreach (char c in Lines[2])
+                foreach (char c in Lines[1])
                 {
                     i++;
                     char Decrypted = (char)(c / i);
-                    DecryptedPass += DecryptedPass.ToString();
+                    DecryptedPass += Decrypted.ToString();
                 }
                 if(Password == DecryptedPass)
                 {
@@ -55,7 +55,7 @@ public class LoginScreen : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogWarning("Password is Invalid");
+                    Debug.LogWarning("Password is False");
                 }
             }
             else
@@ -72,7 +72,7 @@ public class LoginScreen : MonoBehaviour
             username.GetComponent<InputField>().text = "";
             password.GetComponent<InputField>().text = "";
             print("Login Sucessful");
-            Application.LoadLevel("Start Menu");
+            Application.LoadLevel("Home");
         }
     }
 

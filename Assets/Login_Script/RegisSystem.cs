@@ -14,7 +14,6 @@ public class RegisSystem : MonoBehaviour
     private string Password;
     private string ConfPassword;
     private string form;
-    private bool EmailValid = false;
 
     // Start is called before the first frame update
     void Start()
@@ -45,13 +44,13 @@ public class RegisSystem : MonoBehaviour
         }
         if (Password != "")
         {
-            if(Password.Length > 5)
+            if(Password.Length > 3)
             {
                 PW = true;
             }
             else
             {
-                Debug.LogWarning("Password Must Be atleast 6 characters long");
+                Debug.LogWarning("Password Must Be atleast 4 characters long");
             }
         }
         else
@@ -94,6 +93,7 @@ public class RegisSystem : MonoBehaviour
             password.GetComponent<InputField>().text = "";
             confPassword.GetComponent<InputField>().text = "";
             print("Regis complete!");
+            Application.LoadLevel("Home");
         }
 
     }
