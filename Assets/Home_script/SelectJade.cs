@@ -42,12 +42,4 @@ public class SelectJade : MonoBehaviour {
             btnJade = false;
         }
     }
-
-    public bool getJadeStatus(){
-        return btnJade;
-    }
-
-    public void setJadeStatus(bool newJadeStatus){
-        btnJade = newJadeStatus;
-    }
 }

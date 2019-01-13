@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SelectLapis : MonoBehaviour {
+public class SelectLapis : MonoBehaviour
+{
     public bool btnLa;
     public GameObject greenBoxL;
     public GameObject Lapis;
@@ -42,13 +43,4 @@ public class SelectLapis : MonoBehaviour {
         }
     }
 
-    public bool getLapisStatus()
-    {
-        return btnLa;
-    }
-
-    public void setLapisStatus(bool newLapisStatus)
-    {
-        btnLa = newLapisStatus;
-    }
 }
