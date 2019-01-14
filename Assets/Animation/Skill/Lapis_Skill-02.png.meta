@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 6e7f8e880cff542199309a5fdc6ff52e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Lapis_Skill-02_0
+    21300002: Lapis_Skill-02_1
+    21300004: Lapis_Skill-02_2
+    21300006: Lapis_Skill-02_3
+    21300008: Lapis_Skill-02_4
+    21300010: Lapis_Skill-02_5
+    21300012: Lapis_Skill-02_6
+    21300014: Lapis_Skill-02_7
+    21300016: Lapis_Skill-02_8
+    21300018: Lapis_Skill-02_9
+    21300020: Lapis_Skill-02_10
+    21300022: Lapis_Skill-02_11
+    21300024: Lapis_Skill-02_12
+    21300026: Lapis_Skill-02_13
+    21300028: Lapis_Skill-02_14
+    21300030: Lapis_Skill-02_15
+    21300032: Lapis_Skill-02_16
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lapis_Skill-02_0
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 6444
+        width: 1366
+        height: 1773
+      alignment: 9
+      pivot: {x: 0.20937963, y: 0.4651701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8304c95c44bb94ebe91306c1701fb5f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_1
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 6436
+        width: 1267
+        height: 1767
+      alignment: 9
+      pivot: {x: 0.22844838, y: 0.47503713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678ef399b4e8845159d02863561f1bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_2
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 6398
+        width: 1003
+        height: 1920
+      alignment: 9
+      pivot: {x: 0.3856575, y: 0.43107858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6036ac933054546830f72987b76e34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_3
+      rect:
+        serializedVersion: 2
+        x: 5094
+        y: 6382
+        width: 908
+        height: 2062
+      alignment: 9
+      pivot: {x: 0.58744216, y: 0.41015482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e1f40108174c8daf0e2c6da79dd73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_4
+      rect:
+        serializedVersion: 2
+        x: 7078
+        y: 7542
+        width: 782
+        height: 913
+      alignment: 9
+      pivot: {x: 0.5000006, y: 1.0006589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87757faeac2d248fa88f9c43e714d222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_5
+      rect:
+        serializedVersion: 2
+        x: 6999
+        y: 6225
+        width: 991
+        height: 1161
+      alignment: 9
+      pivot: {x: 0.5000005, y: 1.0047612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5112f53c5d3fa4f9c8369e238074a8c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 4199
+        width: 1589
+        height: 1862
+      alignment: 9
+      pivot: {x: 0.49262396, y: 0.9972738}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123c266c898584d8dad874f696f5503b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_7
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 4091
+        width: 1587
+        height: 1857
+      alignment: 9
+      pivot: {x: 0.49261472, y: 0.9923011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b2ba380f0894e6bb53b4964ad833ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_8
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 4134
+        width: 1200
+        height: 1756
+      alignment: 9
+      pivot: {x: 0.23884277, y: 0.48377523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ced002ba76e422ca61e0c4829e0d45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_9
+      rect:
+        serializedVersion: 2
+        x: 5544
+        y: 4132
+        width: 1006
+        height: 1808
+      alignment: 9
+      pivot: {x: 0.28760058, y: 0.46454504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67b9b636e3446558a9ef297733431a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_10
+      rect:
+        serializedVersion: 2
+        x: 6895
+        y: 3957
+        width: 699
+        height: 2191
+      alignment: 9
+      pivot: {x: 0.42867252, y: 0.37972102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1090959aa60df4d379768c0c29fdc64f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_11
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2852
+        width: 445
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43025e22ddfea453b99c4f98ffd2120e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_12
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1124
+        width: 861
+        height: 2247
+      alignment: 9
+      pivot: {x: 0.38900393, y: 0.3177236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a114a3062a64d11918ed50314e3be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_13
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1515
+        width: 1254
+        height: 1995
+      alignment: 9
+      pivot: {x: 0.22782098, y: 0.41787967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ceef9285955044e8b51c718a381ff5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_14
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 1027
+        width: 1468
+        height: 2025
+      alignment: 9
+      pivot: {x: 0.21634784, y: 0.42920935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c9aa241fee74437b66e2e5e31f5906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 617
+        width: 606
+        height: 1994
+      alignment: 9
+      pivot: {x: 0.52114385, y: 0.3714828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2dc8303a56d494daf222bd2e99c652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lapis_Skill-02_16
+      rect:
+        serializedVersion: 2
+        x: 6865
+        y: 540
+        width: 1354
+        height: 1795
+      alignment: 9
+      pivot: {x: 0.23279837, y: 0.48478842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbb93ce069ed47aa8695e7cb4d8d274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ee5ab4ef95e114ad3aa9d3c5a3d99e2d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
