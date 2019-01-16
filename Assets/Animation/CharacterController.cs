@@ -1,14 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterController : MonoBehaviour {
 
     public int defL = 30;
     public int atkL = 20;
+    public int MaxHp = 300;
+    public int currentHP;
+    public Slider HPbar;
+    public bool isDead = false;
+    public bool isDamage = false;
 
     public float maxSpeed = 3f;
-
     public bool facingLeft = true;
 
     public float rotation = 0f;
@@ -34,9 +39,9 @@ public class CharacterController : MonoBehaviour {
 	void Start () {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        float maxHP = defL * 100;
         character = GameObject.FindGameObjectWithTag("Player");
-    }
+        bool isAtk = false;
+}
 	// Update is called once per frame
 	void FixedUpdate () {
 
@@ -87,6 +92,12 @@ public class CharacterController : MonoBehaviour {
         }
 
         Physics2D.IgnoreLayerCollision(0,8);
+
+        //Atk
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            anim.SetBool("isAtk", true);
+        } else anim.SetBool("isAtk", false);
 
     }
 
