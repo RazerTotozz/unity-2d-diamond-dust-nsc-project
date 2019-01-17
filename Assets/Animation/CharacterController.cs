@@ -92,6 +92,7 @@ public class CharacterController : MonoBehaviour {
         }
 
         Physics2D.IgnoreLayerCollision(0,8);
+        //Physics2D.IgnoreLayerCollision(0, 9);
 
         //Atk
         if (Input.GetKeyDown(KeyCode.Q))
@@ -110,19 +111,11 @@ public class CharacterController : MonoBehaviour {
         transform.localScale = theScale;
     }
 
-    //void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "ladder")
-    //    {
-    //        Debug.Log("hitladder");
-    //        canClimb = true;
-    //    }
-    //}
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Ladder")
         {
-            Debug.Log("hitladder");
+            //Debug.Log("hitladder");
             canClimb = true;
         }
     }
@@ -131,7 +124,7 @@ public class CharacterController : MonoBehaviour {
     {
         if(collision.gameObject.tag != "Ladder")
         {
-            Debug.Log("Outladder");
+            //Debug.Log("Outladder");
             canClimb = true;
         }
     }
