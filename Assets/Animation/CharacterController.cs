@@ -35,12 +35,16 @@ public class CharacterController : MonoBehaviour {
     public Vector2 force = Vector2.up;
 
     public Animator anim;
+
+    //MonsterWalk monWalk = gameObject.GetComponent<MonsterWalk>();
+    public GameObject monster;
 	// Use this for initialization
 	void Start () {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         character = GameObject.FindGameObjectWithTag("Player");
         bool isAtk = false;
+        //monWalk = gameObject.GetComponent<MonsterWalk>();
 }
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -95,11 +99,14 @@ public class CharacterController : MonoBehaviour {
         //Physics2D.IgnoreLayerCollision(0, 9);
 
         //Atk
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Q))
         {
             anim.SetBool("isAtk", true);
         } else anim.SetBool("isAtk", false);
 
+        //Destroy enemy
+        //if (monWalk.isTouch)
+            //monster.SetActive(false);
     }
 
 

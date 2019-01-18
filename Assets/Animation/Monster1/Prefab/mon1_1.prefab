@@ -122,6 +122,10 @@ MonoBehaviour:
   hp: 200
   speed: {x: 1, y: 1, z: 1}
   CharacterDetected: 0
+  rotation: 0
+  t: {fileID: 4147051014660744}
+  isTouch: 0
+  monster: {fileID: 1341198087035090}
 --- !u!212 &212021741584516464
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -159,7 +163,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 13cefa598dd50914bb1450e4b929d188, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3.12, y: 3.36}

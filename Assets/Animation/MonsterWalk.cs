@@ -11,10 +11,13 @@ public class MonsterWalk : MonoBehaviour {
     public bool CharacterDetected = false;
     public float rotation = 0f;
     public Transform t;
+    public bool isTouch;
+    public GameObject monster;
 
     // Use this for initialization
     void Start () {
         anim = GetComponent<Animator>();
+        isTouch = false;
 	}
 	
 	// Update is called once per frame
@@ -24,8 +27,19 @@ public class MonsterWalk : MonoBehaviour {
         if (CharacterDetected)
         {
             anim.SetBool("isATK", true);
-        } else 
-        anim.SetBool("isATK", false);
+            hp -= 2;
+        }
+        else
+        {
+            anim.SetBool("isATK", false);
+        }
+
+        if(hp <= 100)
+        {
+            monster.SetActive(false);
+        }
+
+        //isTouch = anim.GetBool("isATK");
 
         //Physics2D.IgnoreLayerCollision(0, 9);
     }
@@ -53,8 +67,15 @@ public class MonsterWalk : MonoBehaviour {
     {
         if (collision.collider.CompareTag("Player"))
         {
-            Debug.Log("hit");
+            //Debug.Log("hit");
             CharacterDetected = true;
+            isTouch = true;
+        }
+        else
+        {
+            //Debug.Log("out");
+            CharacterDetected = false;
+            isTouch = false;
         }
     }
 

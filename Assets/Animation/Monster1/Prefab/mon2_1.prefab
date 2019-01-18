@@ -122,6 +122,10 @@ MonoBehaviour:
   hp: 200
   speed: {x: 1, y: 1, z: 1}
   CharacterDetected: 0
+  rotation: 0
+  t: {fileID: 4469996817230812}
+  isTouch: 0
+  monster: {fileID: 1115469968290052}
 --- !u!212 &212202821685610066
 SpriteRenderer:
   m_ObjectHideFlags: 1

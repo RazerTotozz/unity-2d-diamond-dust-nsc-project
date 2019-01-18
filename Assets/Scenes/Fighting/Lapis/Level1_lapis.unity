@@ -3933,6 +3933,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.75, y: 0.885}
   m_EdgeRadius: 0
+--- !u!1 &792925523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1341198087035090, guid: 8c1a86b3745b84c9d9ee36fe99422399,
+    type: 2}
+  m_PrefabInternal: {fileID: 1597285416}
 --- !u!4 &792925527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4147051014660744, guid: 8c1a86b3745b84c9d9ee36fe99422399,
@@ -4801,6 +4806,7 @@ MonoBehaviour:
   canClimb: 0
   force: {x: 0, y: 1}
   anim: {fileID: 987995486}
+  monster: {fileID: 792925523}
 --- !u!1 &1005199105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1111151233728824, guid: 59264afa1f48d4118956c3295500a378,
@@ -7684,11 +7690,6 @@ Prefab:
     - target: {fileID: 4147051014660744, guid: 8c1a86b3745b84c9d9ee36fe99422399, type: 2}
       propertyPath: m_RootOrder
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 212021741584516464, guid: 8c1a86b3745b84c9d9ee36fe99422399,
-        type: 2}
-      propertyPath: m_FlipX
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c1a86b3745b84c9d9ee36fe99422399, type: 2}
