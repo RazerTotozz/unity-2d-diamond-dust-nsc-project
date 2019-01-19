@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class CharacterController : MonoBehaviour {
 
+    public int countO;
+    public int countSi;
+    public int countC;
+    public int countMoney;
+
     public int defL = 30;
     public int atkL = 20;
     public int MaxHp = 300;
@@ -43,9 +48,8 @@ public class CharacterController : MonoBehaviour {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         character = GameObject.FindGameObjectWithTag("Player");
-        bool isAtk = false;
         //monWalk = gameObject.GetComponent<MonsterWalk>();
-}
+    }
 	// Update is called once per frame
 	void FixedUpdate () {
 
@@ -99,7 +103,7 @@ public class CharacterController : MonoBehaviour {
         //Physics2D.IgnoreLayerCollision(0, 9);
 
         //Atk
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Space))
         {
             anim.SetBool("isAtk", true);
         } else anim.SetBool("isAtk", false);
@@ -135,4 +139,26 @@ public class CharacterController : MonoBehaviour {
             canClimb = true;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D obj)
+    {
+        if (obj.gameObject.tag == "Crystal")
+        {
+            Debug.Log("hit");
+            countO += Random.Range(0, 7);
+            countC += Random.Range(0, 5);
+            countSi += Random.Range(0, 2);
+
+        }
+
+        if (obj.gameObject.tag == "Chest")
+        {
+            Debug.Log("hit");
+            countO += Random.Range(0, 10);
+            countC += Random.Range(0, 7);
+            countSi += Random.Range(0, 5);
+            countMoney += Random.Range(200, 2000);
+        }
+    }
+
 }
