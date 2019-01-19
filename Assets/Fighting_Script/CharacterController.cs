@@ -9,6 +9,10 @@ public class CharacterController : MonoBehaviour {
     public int countSi;
     public int countC;
     public int countMoney;
+    public Text countCText;
+    public Text countSiText;
+    public Text countOText;
+    public Text countMoneyText;
 
     public int defL = 30;
     public int atkL = 20;
@@ -39,6 +43,8 @@ public class CharacterController : MonoBehaviour {
 
     public Vector2 force = Vector2.up;
 
+    public GameObject summaryBox;
+
     public Animator anim;
 
     //MonsterWalk monWalk = gameObject.GetComponent<MonsterWalk>();
@@ -49,6 +55,7 @@ public class CharacterController : MonoBehaviour {
         anim = GetComponent<Animator>();
         character = GameObject.FindGameObjectWithTag("Player");
         //monWalk = gameObject.GetComponent<MonsterWalk>();
+
     }
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -113,6 +120,10 @@ public class CharacterController : MonoBehaviour {
             //monster.SetActive(false);
     }
 
+    private void Update()
+    {
+        SetCountText();
+    }
 
     void Flip()
     {
@@ -158,7 +169,17 @@ public class CharacterController : MonoBehaviour {
             countC += Random.Range(0, 7);
             countSi += Random.Range(0, 5);
             countMoney += Random.Range(200, 2000);
+            summaryBox.SetActive(true);
+            Destroy(character,2.0f);
         }
+    }
+
+    void SetCountText()
+    {
+        countCText.text = countC.ToString();
+        countOText.text = countO.ToString();
+        countSiText.text = countSi.ToString();
+        countMoneyText.text = countMoney.ToString();
     }
 
 }

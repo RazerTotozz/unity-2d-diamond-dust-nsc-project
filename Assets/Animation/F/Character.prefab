@@ -122,6 +122,10 @@ MonoBehaviour:
   countSi: 0
   countC: 0
   countMoney: 0
+  countCText: {fileID: 0}
+  countSiText: {fileID: 0}
+  countOText: {fileID: 0}
+  countMoneyText: {fileID: 0}
   defL: 30
   atkL: 20
   MaxHp: 300
