@@ -77,6 +77,11 @@ public class MonsterWalk : MonoBehaviour {
             CharacterDetected = false;
             isTouch = false;
         }
+
+        if (collision.collider.CompareTag("Fairy"))
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     //public void OnCollisionExit2D(Collision2D collision)

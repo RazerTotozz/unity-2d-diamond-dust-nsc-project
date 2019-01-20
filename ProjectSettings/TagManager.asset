@@ -9,6 +9,8 @@ TagManager:
   - Monster
   - Crystal
   - Chest
+  - ladder
+  - Fairy
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,13 @@ TextureImporter:
     21300008: fighting-03_4
     21300010: fighting-03_5
     21300012: fighting-03_6
+    21300014: fighting-03_7
+    21300016: fighting-03_8
+    21300018: fighting-03_9
+    21300020: fighting-03_10
+    21300022: fighting-03_11
+    21300024: fighting-03_12
+    21300026: fighting-03_13
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -127,7 +134,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13342f1ccc0c048429dbe0958a73c8c2
+      spriteID: d68b8dc0308aa4ef6905ccf983a45e17
       vertices: []
       indices: 
       edges: []
@@ -147,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cc8b1f3fe1324b5296db25ce71ee62b
+      spriteID: cf2012d8bdf884f508d29bba6430d46e
       vertices: []
       indices: 
       edges: []
@@ -167,7 +174,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f08b9eefab9f445deab777be5a90b9ea
+      spriteID: 178b269c0901a433dabb3d329b1353dd
       vertices: []
       indices: 
       edges: []
@@ -187,7 +194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3fbf44a5e721458480a0abb023bb9b9
+      spriteID: 588c3b3f001f64d378a39f88d31bcf6c
       vertices: []
       indices: 
       edges: []
@@ -207,7 +214,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4afefae20a7d24b1699e2325337515b1
+      spriteID: 2a1e1163d9c954a6bb7e9c6de0d5f137
       vertices: []
       indices: 
       edges: []
@@ -227,7 +234,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35a83ce492eea419f868ed3b0310436d
+      spriteID: acb39da198889400099304ffdb61092d
       vertices: []
       indices: 
       edges: []
@@ -247,7 +254,147 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9eccc7885eae46cca3050720a35ceed
+      spriteID: 5eeae447e65064e14874c43fb826fefa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 3940
+        width: 3867
+        height: 2629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98ba43a18c3e4268a49edff92259d0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_8
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 2534
+        width: 1223
+        height: 1223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7e5963988844d6a7f1d43848626bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_9
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 2852
+        width: 904
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a3167e83a474b5088ce48c49e23419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_10
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 2856
+        width: 900
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86e717cffcb94ec19bb7d54fa10cdd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1182
+        width: 1224
+        height: 1229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029d520112c6349f89f10558f440240e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_12
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1506
+        width: 904
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724bf24f9809d43aaa3370d9c7e3b47a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fighting-03_13
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 1499
+        width: 904
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d6b55565e464d6ca35914bca2d0a8d
       vertices: []
       indices: 
       edges: []

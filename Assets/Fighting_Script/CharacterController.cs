@@ -47,6 +47,8 @@ public class CharacterController : MonoBehaviour {
 
     public Animator anim;
 
+    public GameObject lapis;
+
     //MonsterWalk monWalk = gameObject.GetComponent<MonsterWalk>();
     public GameObject monster;
 	// Use this for initialization
@@ -117,7 +119,18 @@ public class CharacterController : MonoBehaviour {
 
         //Destroy enemy
         //if (monWalk.isTouch)
-            //monster.SetActive(false);
+        //monster.SetActive(false);
+
+        //Skill
+        if (Input.GetKey(KeyCode.Q))
+        {
+            lapis.SetActive(true);
+        }
+        else if (Input.GetKey(KeyCode.E))
+        {
+            lapis.SetActive(true);
+        }
+        else lapis.SetActive(false);
     }
 
     private void Update()
