@@ -13,13 +13,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: isAtk
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -418,7 +418,7 @@ AnimatorStateMachine:
     m_Position: {x: 588, y: 48, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102113726840729236}
-    m_Position: {x: 432, y: -60, z: 0}
+    m_Position: {x: 444, y: -120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102007350204390638}
     m_Position: {x: 467, y: 5, z: 0}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CharacterController : MonoBehaviour {
+public class CharacterControl_NoFairy : MonoBehaviour {
 
     public int countO;
     public int countSi;
@@ -47,23 +47,24 @@ public class CharacterController : MonoBehaviour {
 
     public Animator anim;
 
-    public GameObject lapis;
 
     //MonsterWalk monWalk = gameObject.GetComponent<MonsterWalk>();
     public GameObject monster;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         character = GameObject.FindGameObjectWithTag("Player");
         //monWalk = gameObject.GetComponent<MonsterWalk>();
 
     }
-	// Update is called once per frame
-	void FixedUpdate () {
+    // Update is called once per frame
+    void FixedUpdate()
+    {
 
         //move left right
-        float move = Input.GetAxis("Horizontal"); 
+        float move = Input.GetAxis("Horizontal");
 
         //move animator
         anim.SetFloat("Speed", Mathf.Abs(move));
@@ -78,7 +79,8 @@ public class CharacterController : MonoBehaviour {
         if (move < 0 && !facingLeft)
         {
             Flip();
-        }else if(move > 0 && facingLeft)
+        }
+        else if (move > 0 && facingLeft)
             Flip();
 
         //Jump
@@ -108,29 +110,16 @@ public class CharacterController : MonoBehaviour {
             else rigid.gravityScale = 10;
         }
 
-        Physics2D.IgnoreLayerCollision(0,8);
+        Physics2D.IgnoreLayerCollision(0, 8);
         //Physics2D.IgnoreLayerCollision(0, 9);
 
         //Atk
         if (Input.GetKey(KeyCode.Space))
         {
             anim.SetBool("isAtk", true);
-        } else anim.SetBool("isAtk", false);
-
-        //Destroy enemy
-        //if (monWalk.isTouch)
-        //monster.SetActive(false);
-
-        //Skill
-        if (Input.GetKey(KeyCode.Q))
-        {
-            lapis.SetActive(true);
         }
-        else if (Input.GetKey(KeyCode.E))
-        {
-            lapis.SetActive(true);
-        }
-        else lapis.SetActive(false);
+        else anim.SetBool("isAtk", false);
+
     }
 
     private void Update()
@@ -148,7 +137,7 @@ public class CharacterController : MonoBehaviour {
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Ladder")
+        if (collision.gameObject.tag == "Ladder")
         {
             //Debug.Log("hitladder");
             canClimb = true;
@@ -157,7 +146,7 @@ public class CharacterController : MonoBehaviour {
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if(collision.gameObject.tag != "Ladder")
+        if (collision.gameObject.tag != "Ladder")
         {
             //Debug.Log("Outladder");
             canClimb = true;
@@ -183,7 +172,7 @@ public class CharacterController : MonoBehaviour {
             countSi += Random.Range(0, 5);
             countMoney += Random.Range(200, 2000);
             summaryBox.SetActive(true);
-            Destroy(character,0.2f);
+            Destroy(character, 0.2f);
         }
     }
 
@@ -194,5 +183,4 @@ public class CharacterController : MonoBehaviour {
         countSiText.text = countSi.ToString();
         countMoneyText.text = countMoney.ToString();
     }
-
 }
