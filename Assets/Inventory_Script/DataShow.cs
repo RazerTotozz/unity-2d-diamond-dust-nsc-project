@@ -34,7 +34,8 @@ public class DataShow : MonoBehaviour {
 	
 	// Update is called once per frame
     void Update () {
-		if(ClickStatus == 1)
+    
+        if (ClickStatus == 1)
         {
             Box.active = true;
             h.active = true;
