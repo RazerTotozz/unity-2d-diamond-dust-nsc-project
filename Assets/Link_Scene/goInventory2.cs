@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class goInventory : MonoBehaviour {
+public class goInventory2 : MonoBehaviour {
 
     public static bool clickInventory;
     private Scene gotoInventory;
@@ -17,7 +17,7 @@ public class goInventory : MonoBehaviour {
     {
         if (clickInventory == true)
         {
-            Application.LoadLevel("Inventory2");
+            Application.LoadLevel("Inventory3");
 
         }
         if (clickInventory == false)

@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Inventory.unity
     guid: e1a15a056fc3b474fa80bdfd8b977519
   - enabled: 1
+    path: Assets/Scenes/Inventory2.unity
+    guid: 2c1e3a7fe2b9b43f3a455001a2423faf
+  - enabled: 1
     path: Assets/Scenes/StoryMenu.unity
     guid: 29826d8d7dbd241b38987ea0070f9809
   - enabled: 1
