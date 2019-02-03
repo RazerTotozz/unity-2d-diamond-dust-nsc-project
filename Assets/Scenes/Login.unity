@@ -3469,8 +3469,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 787888501}
-        m_MethodName: RegisButton
+      - m_Target: {fileID: 2067830256}
+        m_MethodName: goTuto1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3479,7 +3479,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &2067830254
@@ -3524,9 +3524,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2067830251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c7d2680afe45ad8172cd1e8eb90ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f0f743644a42040d9a2b56ee7bca2493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickRegis: 0
 --- !u!1 &2133029993
 GameObject:
   m_ObjectHideFlags: 0
