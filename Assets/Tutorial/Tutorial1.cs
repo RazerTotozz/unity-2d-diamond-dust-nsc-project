@@ -46,6 +46,7 @@ public class Tutorial1 : MonoBehaviour {
             circle3.SetActive(true);
         }
 
+
     }
 
     public void Nextt()
