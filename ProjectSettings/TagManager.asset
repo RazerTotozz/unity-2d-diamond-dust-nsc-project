@@ -11,6 +11,7 @@ TagManager:
   - Chest
   - ladder
   - Fairy
+  - fall
   layers:
   - Default
   - TransparentFX

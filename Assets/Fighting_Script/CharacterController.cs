@@ -185,6 +185,16 @@ public class CharacterController : MonoBehaviour {
             summaryBox.SetActive(true);
             Destroy(character,0.2f);
         }
+        if (obj.gameObject.tag == "fall")
+        {
+            Debug.Log("hit");
+            //countO += Random.Range(0, 10);
+            //countC += Random.Range(0, 7);
+            //countSi += Random.Range(0, 5);
+            //countMoney += Random.Range(200, 2000);
+            summaryBox.SetActive(true);
+            Destroy(character, 0.2f);
+        }
     }
 
     void SetCountText()
