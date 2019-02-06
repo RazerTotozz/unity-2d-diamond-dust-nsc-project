@@ -203,6 +203,10 @@ public class CharacterController : MonoBehaviour {
         countOText.text = countO.ToString();
         countSiText.text = countSi.ToString();
         countMoneyText.text = countMoney.ToString();
+        PlayerPrefs.SetInt("countC", countC);
+        PlayerPrefs.SetInt("countO", countO);
+        PlayerPrefs.SetInt("countSi", countSi);
+        PlayerPrefs.SetInt("countMoney", countMoney);
     }
 
 }

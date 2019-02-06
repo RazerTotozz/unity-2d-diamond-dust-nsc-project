@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class DataShow : MonoBehaviour {
     public GameObject Box;
     public GameObject h, c, o, na, al, si, s, cl, ca, hg;
     private bool clickH, clickC, clickO, clickNa, clickAl, clickSi, clickS, clickCl, clickCa, clickHg;
     private int ClickStatus = 0;
+
+
     // Use this for initialization
     void Start () {
         Box.active = false;
@@ -30,6 +33,7 @@ public class DataShow : MonoBehaviour {
         clickCl = false;
         clickCa = false;
         clickHg = false;
+
     }
 	
 	// Update is called once per frame
